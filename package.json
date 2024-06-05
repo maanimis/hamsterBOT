@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "simple autiTap bot for https://t.me/hamster_kombat_bot",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
