@@ -110,5 +110,5 @@ while (true) {
       user.nextTimestamp = genTimestamp(temp, user.nextTimestamp);
     }
   }
-  await Sleep(2);
+  await Sleep(6);
 }
