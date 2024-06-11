@@ -63,8 +63,7 @@ while (true) {
           Accept: "application/json",
           "Sec-Ch-Ua": '"Not_A Brand";v="8", "Chromium";v="120"',
           "Sec-Ch-Ua-Mobile": "?0",
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.199 Safari/537.36",
+          "User-Agent": "TelegramBot (like TwitterBot)",
           "Sec-Ch-Ua-Platform": '"Linux"',
           Origin: "https://hamsterkombat.io",
           "Sec-Fetch-Site": "same-site",
