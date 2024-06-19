@@ -16,7 +16,7 @@ const Authorizations = [
 const Sleep = (s) => new Promise((res) => setTimeout(res, s * 1000));
 let data = {
   count: 10,
-  availableTaps: 1000,
+  availableTaps: 10000,
   timestamp: 0,
 };
 
