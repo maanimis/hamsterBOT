@@ -1,5 +1,5 @@
 {
-    "name": "production",
+    "name": "development",
     "hamsterAccounts": [
         {
             "account": "me",
