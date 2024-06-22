@@ -19,7 +19,7 @@ const Accounts = hamsterAccounts.map((account) => ({
   balance: 0,
 }));
 
-setInterval(() => util.banner(Accounts), refreshStatus);
+setInterval(util.banner, refreshStatus, Accounts);
 
 (async function main() {
   console.log(`\n[+]Running @${config.get("name")}...\n\n`);

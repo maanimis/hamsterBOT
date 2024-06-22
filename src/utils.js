@@ -6,17 +6,20 @@ export function genTimestamp(waiter, init) {
   return (init && Date.now()) + waiter * 1000;
 }
 
-export function banner(info = []) {
+export function banner(accounts = []) {
+  const info = [...accounts];
   const result = [];
+
   info.forEach((i) => {
     result.push({
       Account: i.account,
-      Requests: i.request,
-      Failed: i.falied,
-      Tap: i.tap,
-      Balance: i.balance,
+      Requests: i.request || 0,
+      Failed: i.failed || 0,
+      Tap: i.tap || 0,
+      Balance: i.balance || 0,
     });
   });
+
   console.clear();
   console.table(result);
 }
