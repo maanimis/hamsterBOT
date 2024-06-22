@@ -13,10 +13,10 @@ export function banner(accounts = []) {
   info.forEach((i) => {
     result.push({
       Account: i.account,
-      Requests: i.request || 0,
-      Failed: i.failed || 0,
-      Tap: i.tap || 0,
-      Balance: i.balance || 0,
+      Requests: i.requests,
+      Failed: i.failed,
+      Tap: i.tap,
+      Balance: i.balance,
     });
   });
 
