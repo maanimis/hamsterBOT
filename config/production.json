@@ -1,0 +1,9 @@
+{
+    "name": "production",
+    "hamsterAccounts": [
+        {
+            "account": "me",
+            "auth": "Bearer AAAAAAAAAAAAAAAAAAAAAAA"
+        }
+    ]
+}
