@@ -1,16 +1,15 @@
-export function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+export const getRandomInt = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
 
-export function genTimestamp(waiter, init) {
-  return (init && Date.now()) + waiter * 1000;
-}
+export const genTimestamp = (seconds, baseTimestamp = Date.now()) =>
+  baseTimestamp + seconds * 1000;
+
+export const sleep = (sec) => new Promise((res) => setTimeout(res, sec * 1000));
 
 export function banner(accounts = []) {
-  const info = [...accounts];
   const result = [];
 
-  info.forEach((i) => {
+  accounts.forEach((i) => {
     result.push({
       Account: i.account,
       Requests: i.requests,
@@ -23,5 +22,3 @@ export function banner(accounts = []) {
   console.clear();
   console.table(result);
 }
-
-export const sleep = (sec) => new Promise((res) => setTimeout(res, sec * 1000));

@@ -1,6 +1,7 @@
 {
     "name": "default",
     "refreshStatus": 3000,
+    "target": "https://api.hamsterkombat.io/clicker/tap",
     "headers": {
         "headers": {
             "Content-Type": "application/json",

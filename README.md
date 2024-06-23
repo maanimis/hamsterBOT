@@ -2,7 +2,7 @@
 
 ## Overview
 
-HamsterBOT is a bot designed to automate specific tasks using hamster accounts. This readme will guide you through the steps to install Node.js, clone the repository, install the necessary dependencies, configure the bot, and run it.
+HamsterBOT is a bot designed to automate specific tasks using hamster accounts.
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ Install the required dependencies by running:
 ### Step 4: Edit Configuration
 
 1. Open the `config/production.json` file in a text editor.
-2. Edit the configuration settings as needed. For example, you might need to update API keys, account information, and other settings relevant to your environment.
+2. Edit the configuration settings to add 'Authorization'
 
 ### Step 5: Run the Bot
 
